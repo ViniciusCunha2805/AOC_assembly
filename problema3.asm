@@ -1,5 +1,27 @@
 name "problema3"
 
+;Três segmentos de reta só podem formar um triângulo se o maior segmento for
+;menor que a soma dos outros dois. Por exemplo: 3, 4 e 5 formam um triângulo, já que
+;5 < 3 + 4. Já o 8, 4 e 3 não formam um triângulo já que 8 > 3 + 4. Sabendo disso,
+;elabore um algoritmo que, dados três números inteiros (X, Y, Z) maiores ou iguais a 1,
+;passe esses três valores para um procedimento/função chamado
+;formaTriangulo(X,Y,Z) que verificará se esses três números formam um triângulo ou
+;não. Esse procedimento/função vai retornar 1 (true) ou 0 (false) para o algoritmo
+;principal que, a partir desse retorno, vai imprimir a mensagem “X, Y e Z formam um
+;triângulo” ou “X, Y e Z não formam um triângulo”. ATENÇÃO:
+;● Você deve fazer exatamente como está se pedindo, usando um procedimento
+;(Assembly) e uma função (em C) já que esse é o conhecimento principal a ser
+;testado neste problema.
+;● Os parâmetros a serem passados em Assembly podem ser por registrador
+;(jeito mais fácil) ou por pilha (mais genérico, porém um pouco mais difícil). Não use
+;variáveis para este fim (porque esse não é o jeito mais certo).
+;● O procedimento/ função não deve imprimir absolutamente nada. Deve apenas
+;fazer a verificação e retornar 1 (true) ou 0 (false) para o algoritmo principal. Quaisquer
+;impressões e leitura de valores na tela devem ser feitas exclusivamente pelo
+;algoritmo principal (em C ele é o main). Em Assembly é o corpo principal do código,
+;que está fora de outros procedimentos).
+
+
 org 100h
 
 ;-------------------------Input--------------------------------------------;

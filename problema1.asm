@@ -1,5 +1,11 @@
 name "problema1"
 
+;O Problema 1 envolve as seguintes competências: Ler 3 valores (A, B e C)
+;representando as medidas dos lados de um triângulo e imprimir se formam ou não
+;um triângulo e qual tipo de triângulo é. Se os três valores forem iguais, o triângulo é
+;equilátero. Caso dois lados sejam iguais, isósceles. E se todos os lados forem
+;diferentes, o triângulo é escaleno.
+
 org 100h
 
 ;-------------------------Input--------------------------------------------;

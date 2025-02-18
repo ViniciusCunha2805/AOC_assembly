@@ -1,5 +1,17 @@
 name "problema2"
 
+;O Problema 2 envolve as seguintes competências: Dois carros estão em movimento,
+;no mesmo sentido, numa mesma rodovia. Num determinado momento, o carro X está
+;no KM kmx, enquanto o carro Y está no KM kmy. O carro X está em velocidade
+;constante de vx KM/H, enquanto o carro Y está a vy KM/H. Os termos em negrito são
+;variáveis inteiras e devem ser solicitadas ao usuário. Assuma que vx é diferente de vy
+;e tudo começa da hora 0 (zero). Após isso, imprima a posição inicial de ambos os
+;carros (kmx e kmy) e avance, hora a hora, com as novas posições de cada carro, até
+;o momento em que um carro ultrapassar o outro (faça isso linha a linha do console,
+;onde cada linha tem a hora e os valores de kmx e kmy). Informe em que hora, qual
+;carro ultrapassou qual e em qual posição/quilometragem (“Carro X ultrapassou o
+;Carro Y na hora * após o KM *” ou o contrário)
+
 org 100h
 
 ;-------------------------Input--------------------------------------------;
